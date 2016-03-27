@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/CFAg85CBpLR3Hai1GHwlMd#"
+     xml:base="http://webprotege.stanford.edu/project/CFAg85CBpLR3Hai1GHwlMd"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/CFAg85CBpLR3Hai1GHwlMd"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXnNkxH3fJ6am0W8VveoKW -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RXnNkxH3fJ6am0W8VveoKW">
+        <rdfs:label>hasEqual</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Hw4OoX1Gn2g2yppjcg5sm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Hw4OoX1Gn2g2yppjcg5sm">
+        <rdfs:label>developmentalPsychologybook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tKC0jmpHlED8QeSKnLE2Y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8tKC0jmpHlED8QeSKnLE2Y">
+        <rdfs:label>socialpsychologybook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyAeE0FzbOONG6f2Q6cTaW"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R957G1mSyYSBtTKH9KOCkf6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R957G1mSyYSBtTKH9KOCkf6">
+        <rdfs:label>childpsychologybook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Hw4OoX1Gn2g2yppjcg5sm"/>
+        <dc:creator>Erdinç Güllü</dc:creator>
+        <dc:title>Development of Attention in Children</dc:title>
+        <rdfs:comment>It helps to improve attention and memory</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ZO1sSVQQeaGJpqgalkoB5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ZO1sSVQQeaGJpqgalkoB5">
+        <rdfs:label>adultpsychologybook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Hw4OoX1Gn2g2yppjcg5sm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9mfvAHoxzeCxVIL7dakBs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9mfvAHoxzeCxVIL7dakBs">
+        <rdfs:label>analyticalPsychologyBook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>The basis of analytical psychology is matriarchal</rdfs:comment>
+        <dc:title>Analytical Psychology</dc:title>
+        <dc:creator>Carl Gustav Jung</dc:creator>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9qv60afj1AYN9RzDBTHIgZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9qv60afj1AYN9RzDBTHIgZ">
+        <rdfs:label>clinicalPsychologyBook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBElV6YMqQErLEmJ9oqs3o0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBElV6YMqQErLEmJ9oqs3o0">
+        <rdfs:label>agingpsychologybook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZO1sSVQQeaGJpqgalkoB5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RXnNkxH3fJ6am0W8VveoKW"/>
+                <owl:hasValue>Adult</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC09lzmsV998wQoQuPxdIhi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC09lzmsV998wQoQuPxdIhi">
+        <rdfs:label>personalityPsychologyBook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCKGhFE5LysKPT8GdhVYE2f -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCKGhFE5LysKPT8GdhVYE2f">
+        <rdfs:label>adolescentpsychologybook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Hw4OoX1Gn2g2yppjcg5sm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaNc3McWYbgd74JqaLLuco -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCaNc3McWYbgd74JqaLLuco">
+        <rdfs:label>cognitivePsychologyBook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <dc:title>Cognitive Psychology and Instruction</dc:title>
+        <dc:creator>Roger H. Bruning, Gregory J. Schraw, Monica M. Norby</dc:creator>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDeY2pm5khnkjdl9SbmDZa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDeY2pm5khnkjdl9SbmDZa">
+        <rdfs:label>religionPsychologyBook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <dc:title>Psychology and Religion: Psychologist of Religion and God Views</dc:title>
+        <dc:creator>Ali Ayten</dc:creator>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyAeE0FzbOONG6f2Q6cTaW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDyAeE0FzbOONG6f2Q6cTaW">
+        <rdfs:label>socialPsychologyBook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RiDcK1PqkoDMJo9XW9lduM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RiDcK1PqkoDMJo9XW9lduM">
+        <rdfs:label>individualpsychologybook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyAeE0FzbOONG6f2Q6cTaW"/>
+        <rdfs:comment>Appeals to everyone</rdfs:comment>
+        <dc:creator>Alfred Adler</dc:creator>
+        <dc:title>The Practice and Theory of Individual Psychology</dc:title>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
